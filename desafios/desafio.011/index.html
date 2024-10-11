@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>astronauta</title>
+</head>
+<style>
+    .container{
+        position: relative;
+    }
+    .espaco{
+        position: absolute;
+        margin: 0%;
+  z-index: 1;
+    }
+    .astronauta{
+        position: absolute;
+        margin: 8% ;
+  top: 50%;
+  left: 50%;
+  transform: translate(5%, 5%);
+  z-index: 2;
+    }
+</style>
+<body>
+    <div class="container">
+        <img src="espaco.jpg" alt="imagem de fundo" class="espaco">
+        <img src="astronauta.png" alt="imagem sobreposta" class="astronauta">
+    </div>
+</body>
+</html>

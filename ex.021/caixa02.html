@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: antiquewhite;
+        margin:0px;
+    }
+    header{
+        background-color: white;
+        padding:10px;
+        margin:10px
+    }
+    h1{
+        box-shadow: 2px 2px 14px 2px rgba(0, 0, 0, 0.459);
+    }
+    nav{
+        background-color: rgb(255, 145, 2);
+        box-shadow: 2px 2px 12px rgba(221, 138, 29, 0.61);
+    }
+    main{
+        background-color: white;
+        padding:10px;
+        margin:10px;
+        border-radius: 10px;
+    }
+    article{
+        background-color: rgb(235, 191, 134);
+        padding:5px;
+        border-radius: 10px;
+    }
+    article > aside {
+        background-color: rgb(255, 145, 2);
+        padding:0px;
+        margin-right: 309px;
+
+        
+    }
+    footer{
+        background-color: rgb(219, 135, 25);
+        color: black;
+        text-align: center;
+        padding:1px;
+        margin:0px;
+    }
+    footer > p{
+        margin:0px;
+    }
+</style>
+<body>
+    <header>
+<h1>Meu site</h1>
+<nav>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+</nav>
+    </header>
+    <main>
+       <section id="assuntos">
+
+       </section> 
+      
+           <section id="noticias">
+        <article>
+            <h2>Notícias sobre o brasil</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus enim ea quos, nam atque deleniti natus fugit inventore aliquid minima aspernatur sequi. Asperiores quod nostrum et, laborum tempora nulla voluptatem!</p>
+            <aside>
+                <p>Escrito por Guilherme</p>
+            </aside>
+           </section>
+       </article>
+    </main>
+    <footer>
+<p>Desenvolvido por <strong>Guilherme</strong></p>
+    </footer>
+</body>
+</html>
